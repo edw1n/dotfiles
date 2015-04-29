@@ -49,3 +49,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Use Z
 . /Users/koen/Projects/dotfiles/z/z.sh
+
+# Use rbenv
+eval "$(rbenv init -)"
