@@ -201,7 +201,14 @@ function getcertnames() {
 # opens the given location
 function s() {
 	if [ $# -eq 0 ]; then
-		subl .;
+		myarray=(`find ./ -maxdepth 1 -name "*.sublime-project"`)
+		if [ ${#myarray[@]} -gt 0 ]; then 
+			echo "opening sublime project $(find . -type f -name '*.sublime-project')"
+			o $(find . -type f -name '*.sublime-project')
+		else
+			echo "opening sublime with path"
+			subl .;
+		fi
 	else
 		subl "$@";
 	fi;
