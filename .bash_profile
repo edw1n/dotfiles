@@ -48,7 +48,7 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # Use Z
-. /Users/koen/Projects/dotfiles/z/z.sh
+. ~/Projects/dotfiles/z/z.sh
 
 # Use rbenv
 eval "$(rbenv init -)"

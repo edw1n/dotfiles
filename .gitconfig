@@ -164,3 +164,10 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+        name = Koen Romers
+        email = info@koenromers.com
+
+[commit]
+        template = ~/Projects/dotfiles/.git-commit-template.txt

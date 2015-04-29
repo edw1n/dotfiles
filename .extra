@@ -6,7 +6,3 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="info@koenromers.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
-
-# Git commit template
-# curl https://gist.githubusercontent.com/Linell/bd8100c4e04348c7966d/raw/37c1f07f864587a01eb051dc38264267f4a840df/.git-commit-template.txt >> ~/.git-commit-template.txt
-git config --global commit.template ~/.git-commit-template.txt
