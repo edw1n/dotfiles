@@ -166,8 +166,8 @@
 	insteadOf = "gist:"
 
 [user]
-        name = Koen Romers
-        email = info@koenromers.com
+        name = Edwin Kalkman
+        email = kalkman@gmail.com
 
 [commit]
         template = ~/Projects/dotfiles/.git-commit-template.txt
